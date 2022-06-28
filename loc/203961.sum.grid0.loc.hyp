@@ -1,0 +1,18 @@
+NLLOC "./loc/203961.20181026.015903.grid0" "LOCATED" "Location completed."
+SIGNATURE "Sergi   obs:./obs/203961.obs   NLLoc:v7.00.02(17Oct2018)   run:28Jun2022 16h04m27"
+COMMENT "Localizacion de evento id:203961"
+GRID  101 101 101  -50 -50 -5.603  1 1 1 PROB_DENSITY
+SEARCH OCTREE nInitial 1000 nEvaluated 50000 smallestNodeSide 0.078125/0.078125/0.078906 oct_tree_integral 6.469154e+00 scatter_volume 6.469154e+00
+HYPOCENTER  x 9.10156 y 11.2891 z -5.56355  OT 0.694535  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
+GEOGRAPHIC  OT 2018 10 26  01 59 0.694535  Lat -33.298112 Long -69.723514 Depth -5.563547
+QUALITY  Pmax 9.32707e+20 MFmin 17.7394 MFmax 19.2267 RMS 0.11242 Nphs 10 Gap 313.247 Dist 13.0244 Mamp -9.90 0 Mdur -9.90 0
+VPVSRATIO  VpVsRatio 1.76615  Npair 5  Diff 6.45
+STATISTICS  ExpectX 9.92234 Y 13.5578 Z -1.14747  CovXX 5.44528 XY 2.26425 XZ -3.34402 YY 10.4884 YZ 14.9472 ZZ 79.1867 EllAz1  304.488 Dip1  -8.4092 Len1  3.4079 Az2  215.725 Dip2  8.30449 Len2  5.76939 Len3  1.705506e+01
+STAT_GEOG  ExpectLat -33.277725 Long -69.714717 Depth -1.147473
+TRANSFORM  AZIMUTHAL_EQUIDIST RefEllipsoid WGS-84  LatOrig -33.399562  LongOrig -69.821334  RotCW 0.000000
+QML_OriginQuality  assocPhCt 10  usedPhCt 10  assocStaCt -1  usedStaCt 5  depthPhCt -1  stdErr 0.11242  azGap 313.247  secAzGap 313.247  gtLevel -  minDist 13.0244 maxDist 66.5565 medDist 48.1141
+QML_OriginUncertainty  horUnc -1  minHorUnc 3.24486  maxHorUnc 5.11061  azMaxHorUnc 20.9613
+QML_ConfidenceEllipsoid  semiMajorAxisLength 17.0551  semiMinorAxisLength 3.4079  semiIntermediateAxisLength 5.76939  majorAxisPlunge -78.1387  majorAxisAzimuth 169.75  majorAxisRotation 47.8806
+FOCALMECH  Hyp  -33.298112 -69.723514 -5.563547 Mech  0 0 0 mf  0 nObs 0
+END_NLLOC
+

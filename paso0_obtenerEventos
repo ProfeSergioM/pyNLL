@@ -1,0 +1,9 @@
+#!/bin/bash
+ if [ "$#" -ne  "4" ]
+   then
+     echo "Uso: ./paso0_extraer_eventos fecha_inicial fecha_final volcan nombre_archivo"
+ else
+     python paso0_extraer_eventos.py "$@"
+ fi
+
+
