@@ -1,0 +1,9 @@
+#!/bin/bash
+if [ "$#" -ne  "2" ]
+  then
+    echo "Uso: ./paso1_pyNLL año idEvento"
+else
+    python pyNLL_FOCMEC_bash.py "$@"
+fi
+
+
